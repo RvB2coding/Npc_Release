@@ -3,7 +3,7 @@
 //===== By: ================================================== 
 //= Stolao
 //===== Current Version: ===================================== 
-//= 4.48
+//= 4.4B
 //===== Compatible With: ===================================== 
 //= rAthena SVN
 //===== Description: ========================================= 
@@ -33,152 +33,9 @@
 //= 4.46 Tabulation
 //= 4.47 More Tabulation fixes
 //= 4.48 Removed extra {
-//===== Extras: ==============================================
-//= db/import/mob_avail.txt
-//= Mining Crystals
-//= 3901,1907
-//= 3902,1907
-//= 3903,1907
-//= 3904,1907
-//= 3905,1907
-//= 3906,1907
-//= 3907,1907
-//= 3908,1907
-//= 3909,1907
-//= 3910,1907
-//= 3911,1907
-//= 3912,1907
-//= 3913,1907
-//= 3914,1907
-//= 
-//= db/import/mob_db.txt
-//= Mining Crystals
-//= 3901,Crystal01, Crystal, Crystal,01,20,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3902,Crystal01_,Crystal, Crystal,01,20,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3903,Crystal05, Crystal, Crystal,05,25,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3904,Crystal05_,Crystal, Crystal,05,25,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3905,Crystal10_,Crystal, Crystal,10,30,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3906,Crystal10, Crystal, Crystal,10,30,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3907,Crystal25, Crystal, Crystal,25,35,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3908,Crystal25_,Crystal, Crystal,25,35,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3909,Crystal50_,Crystal, Crystal,50,40,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3910,Crystal50, Crystal, Crystal,50,40,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3911,Crystal70, Crystal, Crystal,70,45,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3912,Crystal70_,Crystal, Crystal,70,45,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3913,Crystal99_,Crystal, Crystal,99,50,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,48,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 3914,Crystal99, Crystal, Crystal,99,50,1,0,0,0,0,0,50,99,0,55,55,99,0,55,0,0,1,0,40,0x170000,800,999,999,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-//= 
-//= db/import/item_db.txt
-//= Mining Pickaxe
-//= 47001,Iron_Pick,Iron Pick,5,5000,,250,25,,,0,0xffffffff,7,2,2,1,10,,,{},{},{}
-//= 47002,Steel_Pick,Steel Pick,5,10000,,350,35,,,0,0xffffffff,7,2,2,1,25,,,{},{},{}
-//= 47003,Emveretarcon_Pick,Emveretarcon Pick,5,100000,,500,50,,,0,0xffffffff,7,2,2,2,50,,,{},{},{}
-//= 47004,Oridecon_Pick,Oridecon Pick,5,500000,,650,65,,,0,0xffffffff,7,2,2,3,75,,,{},{},{}
-//= 47005,Emperium_Pick,Emperium Pick,5,1000000,,800,80,,,0,0xffffffff,7,2,2,4,90,,,{},{},{}
-//=
-//=db/import/produce_db.txt
-//= 264,47001,1,101,1,7201,2,998,3
-//= 265,47002,2,101,2,7201,2,604,1,999,3
-//= 266,47003,3,101,3,7201,2,604,2,984,3
-//=
-//=System/iteminfo.lua(lub)
-/*
-	[47001] = {
-		unidentifiedDisplayName = "Pickaxe",
-		unidentifiedResourceName = "³°Àº°î±ªÀÌ",
-		unidentifiedDescriptionName = {
-			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000."
-		},
-		identifiedDisplayName = "Iron Pickaxe",
-		identifiedResourceName = "IronPickaxe",
-		identifiedDescriptionName = {
-			"A common pickaxe, but be careful! This could also be used as a fearful weapon.",
-			"Class: ^777777Pickaxe^000000",
-			"Attack: ^77777725^000000",
-			"Weight: ^77777725^000000",
-			"Weapon Level: ^7777771^000000",
-			"Required Level: ^77777710^000000",
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[47002] = {
-		unidentifiedDisplayName = "Pickaxe",
-		unidentifiedResourceName = "³°Àº°î±ªÀÌ",
-		unidentifiedDescriptionName = {
-			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000."
-		},
-		identifiedDisplayName = "Steel Pickaxe",
-		identifiedResourceName = "SteelPickaxe",
-		identifiedDescriptionName = {
-			"A common pickaxe, but be careful! This could also be used as a fearful weapon.",
-			"Class: ^777777Pickaxe^000000",
-			"Attack: ^77777735^000000",
-			"Weight: ^77777735^000000",
-			"Weapon Level: ^7777772^000000",
-			"Required Level: ^77777735^000000",
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[47003] = {
-		unidentifiedDisplayName = "Pickaxe",
-		unidentifiedResourceName = "³°Àº°î±ªÀÌ",
-		unidentifiedDescriptionName = {
-			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000."
-		},
-		identifiedDisplayName = "Emveretacon  Pickaxe",
-		identifiedResourceName = "EmverertarconPickaxe",
-		identifiedDescriptionName = {
-			"An advanced pickaxe, but be careful! This could also be used as a fearful weapon.",
-			"Class: ^777777Pickaxe^000000",
-			"Attack: ^77777750^000000",
-			"Weight: ^77777750^000000",
-			"Weapon Level: ^7777773^000000",
-			"Required Level: ^77777750^000000",
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[47004] = {
-		unidentifiedDisplayName = "Pickaxe",
-		unidentifiedResourceName = "³°Àº°î±ªÀÌ",
-		unidentifiedDescriptionName = {
-			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000."
-		},
-		identifiedDisplayName = "Oridecon  Pickaxe",
-		identifiedResourceName = "OrideconPickaxe",
-		identifiedDescriptionName = {
-			"An advanced pickaxe, but be careful! This could also be used as a fearful weapon.",
-			"Class: ^777777Pickaxe^000000",
-			"Attack: ^77777765^000000",
-			"Weight: ^77777765^000000",
-			"Weapon Level: ^7777774^000000",
-			"Required Level: ^77777775^000000",
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-	[47005] = {
-		unidentifiedDisplayName = "Pickaxe",
-		unidentifiedResourceName = "³°Àº°î±ªÀÌ",
-		unidentifiedDescriptionName = {
-			"Unknown Item, can be identified by ^6A5ACDMagnifier^000000."
-		},
-		identifiedDisplayName = "Emperium Pickaxe",
-		identifiedResourceName = "EmperiumPickaxe",
-		identifiedDescriptionName = {
-			"A Perfect pickaxe, but be careful! This could also be used as a fearful weapon.",
-			"Class: ^777777Pickaxe^000000",
-			"Attack: ^77777780^000000",
-			"Weight: ^77777780^000000",
-			"Weapon Level: ^7777774^000000",
-			"Required Level: ^77777790^000000",
-		},
-		slotCount = 0,
-		ClassNum = 0
-	},
-*/
+//= 4.49 Removed use of 'set'
+//= 4.4A Fixed not collecting later rewards
+//= 4.4B Changed Iron Break Chance from 1200 -> 120
 //===== Contact Ifo: =========================================
 //= [Stolao] 
 //= Email: Taingram11@gmail.com
@@ -225,7 +82,7 @@ OnMineCoal:
 	end;
 OnMineIron:
 	MiningSpawn(1,2);
-	MiningFunc(10,10,.Pick[0],7,1200,rand(25,70),7049,1000,1002,1000,7049,1000,1002,1000,7049,1000,1002,2000,984,1500,1002,4500,1002,2500,998,5000);
+	MiningFunc(10,10,.Pick[0],7,120,rand(25,70),7049,1000,1002,1000,7049,1000,1002,1000,7049,1000,1002,2000,984,1500,1002,4500,1002,2500,998,5000);
 	end;
 OnMineFire:
 	MiningSpawn(1,3);
@@ -432,9 +289,9 @@ OnInit:
 	function MiningSpawn {
 	// MiningSpawn(<Amount>,<Tier>{,<Location>})
 		freeloop(1);
-		for(set .@i,getarg(0,1); .@i > 0; set .@i,.@i-1){
-			set .@lv,getarg(1,rand(0,6));
-			set .@s,getarg(2,rand(getarraysize(getd(".Tier"+ .@lv +"_M$"))));
+		for(.@i = getarg(0,1); .@i > 0; .@i--){
+			.@lv = getarg(1,rand(0,6));
+			.@s = getarg(2,rand(getarraysize(getd(".Tier"+ .@lv +"_M$"))));
 			if(getd(".Tier"+.@lv+"_X1["+.@s+"]") < 0 || getd(".Tier"+.@lv+"_X2["+.@s+"]") < 0 || getd(".Tier"+.@lv+"_Y1["+.@s+"]") < 0 || getd(".Tier"+.@lv+"_Y2["+.@s+"]") < 0)
 				monster getd(".Tier"+.@lv+"_M$["+.@s+"]"),0,0,getd(".Tier"+.@lv+"_N$["+.@s+"]")+" Deposit",rand(.MobIds[0],.MobIds[1]) + 2*.@lv,1,"Mining::"+(getd(".Tier"+.@lv+"_T$["+.@s+"]"))+"";
 			else	areamonster getd(".Tier"+.@lv+"_M$["+.@s+"]"),getd(".Tier"+.@lv+"_X1["+.@s+"]"),getd(".Tier"+.@lv+"_Y1["+.@s+"]"),getd(".Tier"+.@lv+"_X2["+.@s+"]"),getd(".Tier"+.@lv+"_Y2["+.@s+"]"),getd(".Tier"+.@lv+"_N$["+.@s+"]")+" Deposit",rand(.MobIds[0],.MobIds[1]) + 2*.@lv,1,"Mining::"+(getd(".Tier"+.@lv+"_T$["+.@s+"]"))+"";
@@ -445,7 +302,7 @@ OnInit:
 
 	function MiningFunc {
 	//calfunc "MiningFunc",<MinBaseLevel>,<MinMineLvl>,<Min Pick>,<Break Chance>,<Damage Chance>,<Exp>,<ItemID1>,<Get Chance1>{,<ItemID2>,<Get Chance2>.....,<ItemID10>,<Get Chance10>};
-		set .@T, getequipid(EQI_HAND_R);
+		.@T = getequipid(EQI_HAND_R);
 		if(.@T < 1){
 			message strcharinfo(0),"[Mining]: "+strcharinfo(0)+" your hand looks as though it could break...";
 			percentheal -15,-15;	heal -5,0;	end;
@@ -485,20 +342,21 @@ OnInit:
 			failedrefitem EQI_HAND_R;
 			end;
 		} else {
-			
-			for(set .@i,6; .@i < getargcount() - 6 && !.@C; set .@i, .@i + 2 ){
-				if(getarg(.@i + 1,0) + MineMaster * (.@i - 5) / 7 > rand(10000))
-					getitem getarg(.@i,7049),1;	set .@C,1;
+			for(.@i = 6; .@i < getargcount() && !.@C; .@i += 2 ){
+				if(getarg(.@i + 1,0) + MineMaster * (.@i - 5) / 7 > rand(10000)){
+					getitem getarg(.@i,7049),1;
+					.@C = 1;
+				}
 			}
 			if(!.@C){
 				message strcharinfo(0),"[Mining]: "+strcharinfo(0)+" you failed to harvest anything.";
 				end;
 			} else if(MineMaster != .MinelvlMax){
-				set .@expneed,MineMaster*(MineMaster*.expcurve)+10+MineMaster;
-				set MineExp,MineExp+getarg(5,1);
+				.@expneed = MineMaster*(MineMaster*.expcurve)+10+MineMaster;
+				MineExp += getarg(5,1);
 				if(MineExp > .@expneed && MineMaster < .MinelvlMax){
-					set MineMaster,MineMaster+1;
-					set MineExp,0;
+					MineMaster++;
+					MineExp = 0;
 					announce "[Mining]: Level has advanced to Lv "+MineMaster+"!",bc_blue|bc_self;
 					specialeffect2 371;
 				} else	message strcharinfo(0),"[Mining]: "+getarg(5,1)+" Exp Gained "+MineExp+"/"+(.@expneed+1)+" untill Lv "+(MineMaster+1)+"";
@@ -508,11 +366,3 @@ OnInit:
 	end;
 	}
 }
-
-
-
-
-
-
-
-
